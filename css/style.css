@@ -34,7 +34,6 @@
   line-height: 42px;
 }
 
-
 .promo-separator {
   width: 170px;
   height: 1px;
@@ -45,6 +44,67 @@
 .promo-subtitle {
   margin-top: 40px;
   font-size: 18px;
+}
+
+/*.vertical {}*/
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.vertical-row {
+  display: flex;
+}
+
+.vertical-column {
+  flex: 0 1 calc(100%/3);
+}
+
+.vertical-item {
+  width: 370px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  line-height: 21.13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.type,.price,.slogan {
+  background: #333333;
+  color: #FFFFFF;
+  border: 2px solid #F5F5F5;
+}
+
+.type {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.68px;
+  height: 60px;
+  padding: 13px 0;
+}
+
+.price {
+  font-size: 36px;
+  font-weight:700;
+  line-height: 42.26px;
+  height: 100px;
+  padding: 25px 0;
+}
+
+.slogan,.space {
+  height: 50px;
+  padding: 12px 0;
+}
+
+.slogan {
+  font-size: 18px;
+}
+
+.space {
+  color: #86878B;
+  border: #F5F5F5 solid 2px ;
 }
 
 
